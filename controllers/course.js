@@ -100,6 +100,3 @@ module.exports = {
   deleteCourse,
   getCourse,
 };
-
-
-//todo curso ordenado por creación ok. falta modificar todo lo español
