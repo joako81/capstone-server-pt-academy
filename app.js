@@ -30,4 +30,8 @@ app.use(`/api/${API_VERSION}`, menuRoutes);
 app.use(`/api/${API_VERSION}`, courseRoutes);
 app.use(`/api/${API_VERSION}`, postRoutes);
 app.use(`/api/${API_VERSION}`, newsletterRoutes);
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server is running on ${port}`));
+
 module.exports = app;
